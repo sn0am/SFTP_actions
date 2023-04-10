@@ -8,3 +8,5 @@ Only files that don't exist on the remote folder are uploaded, if no new files a
 
 SFTP_download.py can be used to recursively download all files and folders from a given remote folder.
 Only files that don't exist within a local folder are downloaded. If no new files are detected, download is skipped.
+
+These scripts were hastily written for home use, so the SFTP authentication function is not secure. If using this script for any other use case, I would recommend updating the SFTP authentication function.
