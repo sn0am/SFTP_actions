@@ -17,4 +17,6 @@ This can be used to recursively upload all files and folders within a local dire
 Only files that don't exist within a local folder are downloaded. If no new files are detected, download is skipped.
 
 # Note:
-**These scripts were hastily written for home use, so the SFTP authentication function is not secure. If using this script for any other use case, I would recommend updating the SFTP authentication function.**
+**- These scripts were hastily written for home use, so the SFTP authentication function is not secure. If using this script for any other use case, I would recommend updating the SFTP authentication function.**
+
+**- These scripts were written for use between a Windows host and a Linux SFTP server. If you are usring different OS's, you might need to make some changes to the path handling.**
