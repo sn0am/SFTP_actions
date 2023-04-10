@@ -1,5 +1,5 @@
 ### SFTP_actions
-These scripts utilize Paramiko to perform recursive upload and download actions from a defined remote directory to a local directory via SFTP.
+These scripts utilize Paramiko to perform recursive upload and download actions within a defined remote directory and a local directory via SFTP.
 
 # SFTP_functions.py
 This file contains all of the functions utilized by 'SFTP_upload.py' and 'SFTP_download.py'.
